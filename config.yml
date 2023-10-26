@@ -1,0 +1,35 @@
+fileName : json定义.xlsx
+
+# 关键字: JSON定义
+keywordResponse : JSON定义
+# 关键字: JSON项目
+keywordItem        : JSON项目
+# 关键字: 类型
+keywordItemType    : 类型
+# 关键字: 非空
+keywordItemNotNull : 非空
+# 关键字: 说明
+keywordItemComment : 说明
+
+# 非空标志
+notNullFlag : 是
+
+# 关键字: 类型 列表
+keywordItemTypeArray : 列表
+# 关键字: 类型 对象
+keywordItemTypeObject : 对象
+# 关键字: 类型 字符串
+keywordItemTypeString : 字符串
+# 关键字: 类型 数字
+keywordItemTypeNumber : 数字
+# 关键字: 类型 逻辑值
+keywordItemTypeBool   : 逻辑值
+
+# 根节点
+# 根节点名
+rootNodeName : root
+
+# 代码文件输出路径
+codeOutputPath : E:/code
+# 代码文件扩展名
+codeFileEx : .dart
