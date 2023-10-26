@@ -51,7 +51,7 @@ func grandToChild(node *ItemNode) {
 		// 当前节点是列表，且子节点是对象，则将子节点的所有子节点（当前节点的孙节点）放到当前节点的子节点中。
 		if node.NodeType == TypeArray && child.NodeType == TypeObject {
 			node.ClassName = child.Name
-			node.ClassComment = child.ClassComment
+			node.ClassComment = child.Comment
 			var children []*ItemNode
 			for _, grandChild := range child.Children {
 				grandChild.Level = child.Level

@@ -2,16 +2,14 @@ package main
 
 // ItemNode JSON项目节点
 type ItemNode struct {
-	Level        int
-	Index        int
-	Name         string
-	Comment      string
-	ClassName    string
-	ClassComment string
-	NodeType     NodeType
-	NotNull      bool
-
-	Children []*ItemNode
+	Level        int         // 层级
+	Name         string      // JSON项目名
+	Comment      string      // JSON项目说明
+	ClassName    string      // JSON项目类名（需要定义成类的项目的类名，用于列表的元素对象类的定义）
+	ClassComment string      // JSON项目类说明（需要定义成类的项目的类说明，用于列表的元素对象类的定义）
+	NodeType     NodeType    // 节点类型
+	NotNull      bool        // 不可空
+	Children     []*ItemNode // 子节点
 }
 
 // JsonDefineInfo JSON项目定义的行列信息
